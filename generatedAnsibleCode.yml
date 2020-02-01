@@ -1,0 +1,125 @@
+- name: Install Chocolatey
+  win_chocolatey:
+    name: Chocolatey
+    state: present
+
+- name: Install arduino
+  win_chocolatey:
+    name: arduino
+    state: present
+
+- name: Install autohotkey.portable
+  win_chocolatey:
+    name: autohotkey.portable
+    state: present
+
+- name: Install choco-upgrade-all-at
+  win_chocolatey:
+    name: choco-upgrade-all-at
+    state: present
+
+- name: Install chocolatey
+  win_chocolatey:
+    name: chocolatey
+    state: present
+
+- name: Install chocolatey-core.extension
+  win_chocolatey:
+    name: chocolatey-core.extension
+    state: present
+
+- name: Install chocolatey-dotnetfx.extension
+  win_chocolatey:
+    name: chocolatey-dotnetfx.extension
+    state: present
+
+- name: Install chocolatey-visualstudio.extension
+  win_chocolatey:
+    name: chocolatey-visualstudio.extension
+    state: present
+
+- name: Install chocolatey-windowsupdate.extension
+  win_chocolatey:
+    name: chocolatey-windowsupdate.extension
+    state: present
+
+- name: Install DotNet4.5.2
+  win_chocolatey:
+    name: DotNet4.5.2
+    state: present
+
+- name: Install dotnetfx
+  win_chocolatey:
+    name: dotnetfx
+    state: present
+
+- name: Install KB2919355
+  win_chocolatey:
+    name: KB2919355
+    state: present
+
+- name: Install KB2919442
+  win_chocolatey:
+    name: KB2919442
+    state: present
+
+- name: Install KB2999226
+  win_chocolatey:
+    name: KB2999226
+    state: present
+
+- name: Install KB3033929
+  win_chocolatey:
+    name: KB3033929
+    state: present
+
+- name: Install KB3035131
+  win_chocolatey:
+    name: KB3035131
+    state: present
+
+- name: Install miktex
+  win_chocolatey:
+    name: miktex
+    state: present
+
+- name: Install miktex.install
+  win_chocolatey:
+    name: miktex.install
+    state: present
+
+- name: Install signal
+  win_chocolatey:
+    name: signal
+    state: present
+
+- name: Install visualstudio-installer
+  win_chocolatey:
+    name: visualstudio-installer
+    state: present
+
+- name: Install visualstudio2019community
+  win_chocolatey:
+    name: visualstudio2019community
+    state: present
+
+- name: Install vscode
+  win_chocolatey:
+    name: vscode
+    state: present
+
+- name: Install vscode.install
+  win_chocolatey:
+    name: vscode.install
+    state: present
+
+- name: Install WhatsApp
+  win_chocolatey:
+    name: WhatsApp
+    state: present
+
+- name: Install wire
+  win_chocolatey:
+    name: wire
+    state: present
+
