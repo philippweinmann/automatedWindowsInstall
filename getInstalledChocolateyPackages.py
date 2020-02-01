@@ -17,9 +17,6 @@ def removeVersionNumbers(chocoListStringWithOutAmountOfPackagesInstalled):
     chocoOnlyPackageNameString = []
     counter = 0
     while counter < len(splitString):
-        # print(counter, ": ", splitString[counter])
-        # if(counter + 1 < len(splitString)):
-        #    print(counter + 1, ": ", splitString[counter + 1])
         chocoOnlyPackageNameString.append(splitString[counter])
         counter += 2
     return chocoOnlyPackageNameString
