@@ -6,4 +6,6 @@ Using chocolatey (https://chocolatey.org) however a solid base installation can 
 2. Run main.py to generate ansible code on the machine on which you installed the chocolatey software.
 
 The generatedAnsibleCode.yml was created in the same directory as the python program.
-You can use this playbook to reinstall windows on other machines.
+You can use this playbook to reinstall windows software automatically on other machines.
+
+For more Information on Ansible script language and how to use it: https://www.ansible.com/
